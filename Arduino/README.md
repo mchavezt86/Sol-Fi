@@ -2,8 +2,7 @@
 
 This .ino file has two messages embedded in arrays: "Hello world!" and "Bye, aliens!" using FSK modulation on pin 2 and pin 3.
 
-The message format is as follows: ``SYN - STX - MSG - ETX - ETB``.
-where
+The message format follows the format: ``SYN - STX - MSG - ETX - ETB``, where:
 ```
 SYN = 0b00010101
 STX = 0b00000100
