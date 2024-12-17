@@ -7,4 +7,4 @@ The files contain the message:
 * ``MFSK/test_miguel/test/src/testperiph.c`` to send _Hello world!_.
 * ``MFSK/test_miguel/test_bye/src/testperiph.c`` to send _Bye, aliens!_.
 
-Each project should run on the corresponding board to control the DMD of each channel, if using colour-multiplexing.
+Each project should run on the corresponding board to control the DMD of each channel if using colour-multiplexing.
