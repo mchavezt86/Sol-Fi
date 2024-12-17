@@ -6,5 +6,6 @@ The code runs from ``main.py`` if the output is in one channel of the output fil
 
 Each Python code shows the structure of the file name, which can be overwritten. The file name carries information regarding the type of modulator:
 * LC
-* DMD 
+* DMD
+
 Each uses a different frequency of operation and SNR threshold (for each frequency). The latter parameter can be found in the files ``mfskProcessAuto.py`` and ``mfskProcessAuto2ch.py``
