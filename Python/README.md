@@ -8,4 +8,6 @@ Each Python code shows the structure of the file name, which can be overwritten.
 * LC
 * DMD
 
-Each uses a different frequency of operation and SNR threshold (for each frequency). The latter parameter can be found in the files ``mfskProcessAuto.py`` and ``mfskProcessAuto2ch.py``
+Each uses a different frequency of operation and SNR threshold (for each frequency). The latter parameter can be found in the files ``mfskProcessAuto.py`` and ``mfskProcessAuto2ch.py``. These codes output files in ``.mat`` format with the decoded information, which can be verified manually.
+
+To easily verify, the codes ```verify.py`` and ``verify-2ch.py`` process the output files against the original messages: _Hello world!_ or _Bye, aliens!_.
