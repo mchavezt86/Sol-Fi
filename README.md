@@ -1,5 +1,5 @@
 <picture>
-  <img alt="Shows Sol-Fi" src="./screenshots/Sunbox.jpg">
+  <img alt="Shows Sol-Fi" src="./assets/Sol-Fi.png">
 </picture>
 
 ---
