@@ -1,6 +1,6 @@
 # Code to drive a liquid crystal (LC) cell
 
-This .ino file have two messages embedded in arrays: "Hello world!" and "Bye, aliens!" using FSK modulation on pin 2 and 3.
+This .ino file has two messages embedded in arrays: "Hello world!" and "Bye, aliens!" using FSK modulation on pin 2 and 3.
 
 The message format is as follows: SYN - STX - MSG - ETX - ETB
 where
