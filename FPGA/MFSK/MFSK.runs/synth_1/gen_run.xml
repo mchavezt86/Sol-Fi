@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcsg324-1" LaunchTime="1652880771">
+  <File Type="PA-TCL" Name="logicanalyze.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="logicanalyze_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="logicanalyze_reports.tcl"/>
+  <File Type="RDS-RDS" Name="logicanalyze.vds"/>
+  <File Type="RDS-UTIL" Name="logicanalyze_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="logicanalyze_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="logicanalyze.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="logicanalyze_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="logicanalyze_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/design_1/design_1.bd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../project_3/project_3.srcs/sources_1/bd/design_1/design_1.bd"/>
+        <Attr Name="ImportTime" Val="1598389292"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PGENDIR/sources_1/bd/design_1/hdl/design_1_wrapper.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../project_3/project_3.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v"/>
+        <Attr Name="ImportTime" Val="1598391330"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/logicanalyze.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../project_4/project_4.srcs/sources_1/imports/new/logicanalyze.v"/>
+        <Attr Name="ImportTime" Val="1596030310"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="logicanalyze"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/DLP2000_Controller/Arty-A7-35-Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../project_3/project_3.srcs/constrs_1/imports/DLP2000_Controller/Arty-A7-35-Master.xdc"/>
+        <Attr Name="ImportTime" Val="1587132310"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/imports/DLP2000_Controller/Arty-A7-35-Master.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_microblaze_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ila_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_dlmb_v10_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_dlmb_bram_if_cntlr_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_ilmb_v10_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_rst_clk_wiz_1_100M_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_mdm_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_lmb_bram_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_axi_gpio_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
+</GenRun>

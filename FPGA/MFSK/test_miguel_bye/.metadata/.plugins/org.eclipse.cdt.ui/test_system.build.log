@@ -1,0 +1,6 @@
+23:17:41 **** Incremental Build of configuration Debug for project test_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
+
+23:17:42 Build Finished (took 109ms)
+
