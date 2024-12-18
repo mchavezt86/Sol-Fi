@@ -21,6 +21,7 @@ The repo organisation is:
 ## Requirements
 * The system uses the [XD-50S/12AS Himawari Sunlight Collector](https://himawarisolar.com/himawari-solar-natural-lighting-system/product-specification/).
 * If using the dual-channel configuration, the dichroic filter must be in place.
+* The hardware parts that are modelled in [this site](https://github.com/mchavezt86/FreeCAD-PhD/tree/master/Sol-Fi).
 
 ## Citation
 If you find this repo useful for your academic work, please cite our [original paper](https://doi.org/10.1109/IPSN61024.2024.00010).
